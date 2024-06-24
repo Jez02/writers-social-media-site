@@ -1,0 +1,79 @@
+/* Common styles for light and dark themes */
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.post-author {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.post-description {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-content p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Dark theme specific styles */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Set the same shade of black */
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Adjust text color for better readability */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+}
+
+.navbar a,
+.navbar button {
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #111; /* Set the same shade of black for both links and buttons */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+    background-color: #333; /* Adjust the hover background color */
+}
+
+.navbar button {
+    outline: none;
+}
+.brand {
+    font-weight: bold;
+    font-size: 2em; /* Adjust font size as needed */
+    color: #fff; /* Adjust color as needed */
+    text-align: center;
+    display: block; /* Ensure it takes up the full width */
+    width: 100%; /* Ensure it takes up the full width */
+}

@@ -1,0 +1,194 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+            border-radius: 0px;
+            margin-bottom: 20px;
+            display: flex; /* Added to make children align in a row */
+            justify-content: center; /* Added to horizontally center the items */
+        }
+
+        .navbar a,
+        .navbar button {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: none; /* Remove button default border */
+            background: none; /* Remove button default background */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        .navbar a:hover,
+        .navbar button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profile-info {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .profile-info h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .profile-info p {
+            margin-bottom: 5px;
+        }
+
+        .bio-label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .bio {
+            font-style: italic;
+        }
+
+        .edit-button {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-decoration: none;
+        }
+
+        .edit-button:hover {
+            background-color: #036bd9;
+        }
+
+        .books-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        .book-list .book {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .book-cover {
+            width: 80px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .book-info {
+            flex-grow: 1;
+        }
+
+        .book-title {
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .book-title:hover {
+            text-decoration: underline;
+        }
+
+        .book-description {
+            font-style: italic;
+        }
+
+        .book-tags {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        #buttoncolour {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #buttoncolour:hover {
+            background-color: #036bd9;
+        }
+
+        .brand {
+            font-weight: bold;
+            font-size: 2em; /* Adjust font size as needed */
+            color: #000000; /* Adjust color as needed */
+            text-align: center;
+            display: block; /* Ensure it takes up the full width */
+            width: 100%; /* Ensure it takes up the full width */
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .edit-button,
+        #theme-toggle-btn {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .edit-button:hover,
+        #theme-toggle-btn:hover {
+            background-color: #036bd9;
+        }
+        
+        #theme-toggle-btn {
+            margin-left: -200px; /* Adjust margin to move the toggle button to the left */
+        }
+        
+        #theme-form {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
